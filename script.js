@@ -8,16 +8,16 @@ const keys = document.querySelectorAll('.key');
 // ファイル名とフォルダ名が正確であることを確認してください
 const audioFiles = {
     'c3': 'onaraDRM/onara-do.wav',
-    // 'c#3': 'onaraDRM/onara-do-sharp.wav', // 半音のファイルがない場合はこの行を削除
+    'c#3': 'onaraDRM/onara-do-sharp.wav', // 半音のファイルがない場合はこの行を削除
     'd3': 'onaraDRM/onara-re.wav',
-    // 'd#3': 'onaraDRM/onara-re-sharp.wav',
+    'd#3': 'onaraDRM/onara-re-sharp.wav',
     'e3': 'onaraDRM/onara-mi.wav',
     'f3': 'onaraDRM/onara-fa.wav',
-    // 'f#3': 'onaraDRM/onara-fa-sharp.wav',
+    'f#3': 'onaraDRM/onara-fa-sharp.wav',
     'g3': 'onaraDRM/onara-so.wav',
-    // 'g#3': 'onaraDRM/onara-so-sharp.wav',
+    'g#3': 'onaraDRM/onara-so-sharp.wav',
     'a3': 'onaraDRM/onara-ra.wav',
-    // 'a#3': 'onaraDRM/onara-ra-sharp.wav',
+    'a#3': 'onaraDRM/onara-ra-sharp.wav',
     'b3': 'onaraDRM/onara-si.wav',
     'c4': 'onaraDRM/onara-taka-do.wav',
 };
